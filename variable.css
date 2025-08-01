@@ -7,3 +7,23 @@ p {
   color: pink;
   font-size: 10px;
 }
+
+.error, .success {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 20px;
+  font-style: italic;
+}
+
+.success {
+  background-color: lightgreen;
+  color: rgb(0, 0, 0);
+}
+
+.error {
+  background-color: lightcoral;
+  color: rgb(0, 0, 0);
+}
